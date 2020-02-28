@@ -1,9 +1,9 @@
-var cacheName = 'measure-pwa';
+var cacheName = 'measure-app';
 var filesToCache = [
-  '/',
-  '/index.html',
-  '/css/style.css',
-  '/js/main.js'
+  './',
+  './index.html',
+  './css/style.css',
+  './js/main.js'
 ];
 
 /* Start the service worker and cache all of the app's content */
